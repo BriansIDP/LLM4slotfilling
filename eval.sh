@@ -2,8 +2,8 @@
 
 asrname="gt"
 asrfile="dataset/${asrname}_nbest_sel.json"
-nsamples=2000
-peftpath="exp/slurp_llama13b_baseline_${nsamples}_samples_noschema"
+nsamples=30000
+peftpath="exp/slurp_llama13b_baseline_${nsamples}_samples"
 # peftpath=""
 logfile="$peftpath/log.txt"
 # logfile=log.txt
