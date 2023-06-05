@@ -245,7 +245,7 @@ optimizer_grouped_parameters = [
 optimizer = AdamW(optimizer_grouped_parameters, lr=args.learning_rate)
 
 # Scheduler and math around the number of training steps.
-num_update_steps_per_epoch = math.ceil(len(trainloader) / args.gradient_accumulation_steps)
+num_update_steps_per_epoch = math.ceil(len(trainloader) / args.gradient_accumulation_steps / args.batch_size)
 max_train_steps = args.num_train_epochs * num_update_steps_per_epoch
 
 lr_scheduler = get_scheduler(
