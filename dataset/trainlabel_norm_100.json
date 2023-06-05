@@ -1,0 +1,1327 @@
+{
+    "data": [
+        {
+            "text": "how to cook",
+            "intent": "cooking_recipe",
+            "entities": [],
+            "slurp_id": 14649
+        },
+        {
+            "text": "i would not mind for any one",
+            "intent": "general_dontcare",
+            "entities": [],
+            "slurp_id": 22004
+        },
+        {
+            "text": "could you speak up",
+            "intent": "audio_volume_up",
+            "entities": [],
+            "slurp_id": 1373
+        },
+        {
+            "text": "who is doing facebook live right now",
+            "intent": "social_query",
+            "entities": [
+                {
+                    "span": [
+                        3,
+                        4
+                    ],
+                    "value": "facebook live",
+                    "type": "media_type"
+                }
+            ],
+            "slurp_id": 18528
+        },
+        {
+            "text": "what is the current price of jindel stock",
+            "intent": "qa_stock",
+            "entities": [
+                {
+                    "span": [
+                        6
+                    ],
+                    "value": "jindel",
+                    "type": "business_name"
+                }
+            ],
+            "slurp_id": 17528
+        },
+        {
+            "text": "remind me about tomorrow is meeting tonight",
+            "intent": "calendar_set",
+            "entities": [
+                {
+                    "span": [
+                        3
+                    ],
+                    "value": "tomorrow is",
+                    "type": "date"
+                },
+                {
+                    "span": [
+                        4
+                    ],
+                    "value": "meeting",
+                    "type": "event_name"
+                },
+                {
+                    "span": [
+                        5
+                    ],
+                    "value": "tonight",
+                    "type": "timeofday"
+                }
+            ],
+            "slurp_id": 8265
+        },
+        {
+            "text": "what defines a triangle",
+            "intent": "qa_definition",
+            "entities": [
+                {
+                    "span": [
+                        3
+                    ],
+                    "value": "triangle",
+                    "type": "definition_word"
+                }
+            ],
+            "slurp_id": 14863
+        },
+        {
+            "text": "i think dean obidallah is on the radio around now",
+            "intent": "play_radio",
+            "entities": [],
+            "slurp_id": 9546
+        },
+        {
+            "text": "currency exchange rate",
+            "intent": "qa_currency",
+            "entities": [],
+            "slurp_id": 13750
+        },
+        {
+            "text": "what are the heartthrob news",
+            "intent": "news_query",
+            "entities": [
+                {
+                    "span": [
+                        3
+                    ],
+                    "value": "heartthrob",
+                    "type": "news_topic"
+                }
+            ],
+            "slurp_id": 425
+        },
+        {
+            "text": "what is the current time in boston",
+            "intent": "datetime_query",
+            "entities": [
+                {
+                    "span": [
+                        6
+                    ],
+                    "value": "boston",
+                    "type": "place_name"
+                }
+            ],
+            "slurp_id": 4193
+        },
+        {
+            "text": "what is the weather where i am at today",
+            "intent": "weather_query",
+            "entities": [
+                {
+                    "span": [
+                        8
+                    ],
+                    "value": "today",
+                    "type": "date"
+                }
+            ],
+            "slurp_id": 823
+        },
+        {
+            "text": "will it be too cold for a dress on sunday",
+            "intent": "weather_query",
+            "entities": [
+                {
+                    "span": [
+                        4
+                    ],
+                    "value": "cold",
+                    "type": "weather_descriptor"
+                },
+                {
+                    "span": [
+                        9
+                    ],
+                    "value": "sunday",
+                    "type": "date"
+                }
+            ],
+            "slurp_id": 3665
+        },
+        {
+            "text": "what is 4 +4",
+            "intent": "qa_maths",
+            "entities": [],
+            "slurp_id": 14576
+        },
+        {
+            "text": "s 2 i did not catch that",
+            "intent": "general_explain",
+            "entities": [],
+            "slurp_id": 24184
+        },
+        {
+            "text": "please tell what would be the weather in washington dc for the coming week",
+            "intent": "weather_query",
+            "entities": [
+                {
+                    "span": [
+                        8,
+                        9
+                    ],
+                    "value": "washington dc",
+                    "type": "place_name"
+                },
+                {
+                    "span": [
+                        11,
+                        12,
+                        13
+                    ],
+                    "value": "the coming week",
+                    "type": "time"
+                }
+            ],
+            "slurp_id": 5143
+        },
+        {
+            "text": "please set an alarm for tomorrows meeting at 7 am",
+            "intent": "alarm_set",
+            "entities": [
+                {
+                    "span": [
+                        5
+                    ],
+                    "value": "tomorrows",
+                    "type": "date"
+                },
+                {
+                    "span": [
+                        6
+                    ],
+                    "value": "meeting",
+                    "type": "event_name"
+                },
+                {
+                    "span": [
+                        8,
+                        9
+                    ],
+                    "value": "7 am",
+                    "type": "time"
+                }
+            ],
+            "slurp_id": 7708
+        },
+        {
+            "text": "make a tweet complaint to amazon customer service",
+            "intent": "social_post",
+            "entities": [
+                {
+                    "span": [
+                        2
+                    ],
+                    "value": "tweet",
+                    "type": "media_type"
+                },
+                {
+                    "span": [
+                        5,
+                        6,
+                        7
+                    ],
+                    "value": "amazon customer service",
+                    "type": "business_name"
+                }
+            ],
+            "slurp_id": 18692
+        },
+        {
+            "text": "recommend artists similar to rihanna",
+            "intent": "music_query",
+            "entities": [
+                {
+                    "span": [
+                        4
+                    ],
+                    "value": "rihanna",
+                    "type": "artist_name"
+                }
+            ],
+            "slurp_id": 5079
+        },
+        {
+            "text": "take away from the list all food items with prefix dry",
+            "intent": "lists_remove",
+            "entities": [],
+            "slurp_id": 10612
+        },
+        {
+            "text": "please check if there is a new email on the inbox",
+            "intent": "email_query",
+            "entities": [
+                {
+                    "span": [
+                        10
+                    ],
+                    "value": "inbox",
+                    "type": "email_folder"
+                }
+            ],
+            "slurp_id": 15874
+        },
+        {
+            "text": "how we can get credit",
+            "intent": "email_sendemail",
+            "entities": [],
+            "slurp_id": 15847
+        },
+        {
+            "text": "look for a pizza recipe",
+            "intent": "cooking_recipe",
+            "entities": [
+                {
+                    "span": [
+                        3
+                    ],
+                    "value": "pizza",
+                    "type": "food_type"
+                }
+            ],
+            "slurp_id": 10086
+        },
+        {
+            "text": "appreciate your answers olly",
+            "intent": "general_praise",
+            "entities": [],
+            "slurp_id": 25594
+        },
+        {
+            "text": "can we make steak with chicken",
+            "intent": "cooking_recipe",
+            "entities": [
+                {
+                    "span": [
+                        3
+                    ],
+                    "value": "steak",
+                    "type": "food_type"
+                },
+                {
+                    "span": [
+                        5
+                    ],
+                    "value": "chicken",
+                    "type": "ingredient"
+                }
+            ],
+            "slurp_id": 9985
+        },
+        {
+            "text": "resume audio playback of twilight",
+            "intent": "play_audiobook",
+            "entities": [
+                {
+                    "span": [
+                        0
+                    ],
+                    "value": "resume",
+                    "type": "player_setting"
+                },
+                {
+                    "span": [
+                        4
+                    ],
+                    "value": "twilight",
+                    "type": "audiobook_name"
+                }
+            ],
+            "slurp_id": 9854
+        },
+        {
+            "text": "book me an uber",
+            "intent": "transport_taxi",
+            "entities": [
+                {
+                    "span": [
+                        3
+                    ],
+                    "value": "uber",
+                    "type": "transport_agency"
+                }
+            ],
+            "slurp_id": 12543
+        },
+        {
+            "text": "can you tell me if i have got any unread emails from today",
+            "intent": "email_query",
+            "entities": [
+                {
+                    "span": [
+                        11
+                    ],
+                    "value": "today",
+                    "type": "date"
+                }
+            ],
+            "slurp_id": 16019
+        },
+        {
+            "text": "please play folk music",
+            "intent": "play_music",
+            "entities": [
+                {
+                    "span": [
+                        2
+                    ],
+                    "value": "folk",
+                    "type": "music_genre"
+                }
+            ],
+            "slurp_id": 2703
+        },
+        {
+            "text": "any new mail from jack",
+            "intent": "email_query",
+            "entities": [
+                {
+                    "span": [
+                        4
+                    ],
+                    "value": "jack",
+                    "type": "person"
+                }
+            ],
+            "slurp_id": 19475
+        },
+        {
+            "text": "please arrange to wake me up at 3 am alarm",
+            "intent": "alarm_set",
+            "entities": [
+                {
+                    "span": [
+                        7,
+                        8
+                    ],
+                    "value": "3 am",
+                    "type": "time"
+                }
+            ],
+            "slurp_id": 5507
+        },
+        {
+            "text": "i would like you to check and confirm the details please",
+            "intent": "general_confirm",
+            "entities": [],
+            "slurp_id": 24043
+        },
+        {
+            "text": "tell me about the vote on healthcare",
+            "intent": "news_query",
+            "entities": [
+                {
+                    "span": [
+                        4,
+                        5,
+                        6
+                    ],
+                    "value": "vote on healthcare",
+                    "type": "news_topic"
+                }
+            ],
+            "slurp_id": 2214
+        },
+        {
+            "text": "play one more time",
+            "intent": "play_music",
+            "entities": [],
+            "slurp_id": 3562
+        },
+        {
+            "text": "what is happening today with syria",
+            "intent": "news_query",
+            "entities": [
+                {
+                    "span": [
+                        2
+                    ],
+                    "value": "today",
+                    "type": "date"
+                },
+                {
+                    "span": [
+                        4
+                    ],
+                    "value": "syria",
+                    "type": "news_topic"
+                }
+            ],
+            "slurp_id": 5304
+        },
+        {
+            "text": "confirm the alarm time",
+            "intent": "alarm_query",
+            "entities": [],
+            "slurp_id": 507
+        },
+        {
+            "text": "please say once more",
+            "intent": "general_repeat",
+            "entities": [],
+            "slurp_id": 22531
+        },
+        {
+            "text": "please set on 8th july there is music concert in white field",
+            "intent": "calendar_set",
+            "entities": [
+                {
+                    "span": [
+                        3,
+                        4
+                    ],
+                    "value": "8th july",
+                    "type": "date"
+                },
+                {
+                    "span": [
+                        7,
+                        8
+                    ],
+                    "value": "music concert",
+                    "type": "event_name"
+                },
+                {
+                    "span": [
+                        10,
+                        11
+                    ],
+                    "value": "white field",
+                    "type": "place_name"
+                }
+            ],
+            "slurp_id": 8998
+        },
+        {
+            "text": "is it raining later today",
+            "intent": "weather_query",
+            "entities": [
+                {
+                    "span": [
+                        2
+                    ],
+                    "value": "raining",
+                    "type": "weather_descriptor"
+                },
+                {
+                    "span": [
+                        4
+                    ],
+                    "value": "today",
+                    "type": "date"
+                }
+            ],
+            "slurp_id": 4250
+        },
+        {
+            "text": "explain to me how gravity works",
+            "intent": "qa_factoid",
+            "entities": [],
+            "slurp_id": 17606
+        },
+        {
+            "text": "how to cook crabs",
+            "intent": "cooking_recipe",
+            "entities": [
+                {
+                    "span": [
+                        3
+                    ],
+                    "value": "crabs",
+                    "type": "food_type"
+                }
+            ],
+            "slurp_id": 10094
+        },
+        {
+            "text": "thanks for your asssistance",
+            "intent": "general_praise",
+            "entities": [],
+            "slurp_id": 25262
+        },
+        {
+            "text": "what sort of music events can i find going on around me",
+            "intent": "recommendation_events",
+            "entities": [],
+            "slurp_id": 12000
+        },
+        {
+            "text": "erase my appointment on the 12th from my calendar",
+            "intent": "calendar_remove",
+            "entities": [
+                {
+                    "span": [
+                        2
+                    ],
+                    "value": "appointment",
+                    "type": "event_name"
+                },
+                {
+                    "span": [
+                        5
+                    ],
+                    "value": "12th",
+                    "type": "date"
+                }
+            ],
+            "slurp_id": 7116
+        },
+        {
+            "text": "sorry but you did not get answer right",
+            "intent": "general_negate",
+            "entities": [],
+            "slurp_id": 21398
+        },
+        {
+            "text": "what is the definition of precocious",
+            "intent": "qa_definition",
+            "entities": [
+                {
+                    "span": [
+                        5
+                    ],
+                    "value": "precocious",
+                    "type": "definition_word"
+                }
+            ],
+            "slurp_id": 13015
+        },
+        {
+            "text": "uhh no i did not say this",
+            "intent": "general_negate",
+            "entities": [],
+            "slurp_id": 21596
+        },
+        {
+            "text": "let us take over the world together",
+            "intent": "general_quirky",
+            "entities": [],
+            "slurp_id": 14970
+        },
+        {
+            "text": "new email recipient donna do you have plans for today",
+            "intent": "email_sendemail",
+            "entities": [
+                {
+                    "span": [
+                        3
+                    ],
+                    "value": "donna",
+                    "type": "person"
+                },
+                {
+                    "span": [
+                        9
+                    ],
+                    "value": "today",
+                    "type": "date"
+                }
+            ],
+            "slurp_id": 16403
+        },
+        {
+            "text": "make a repeating reminder for my yoga practice every day at noon",
+            "intent": "calendar_set",
+            "entities": [
+                {
+                    "span": [
+                        6,
+                        7
+                    ],
+                    "value": "yoga practice",
+                    "type": "event_name"
+                },
+                {
+                    "span": [
+                        8,
+                        9
+                    ],
+                    "value": "every day",
+                    "type": "general_frequency"
+                },
+                {
+                    "span": [
+                        11
+                    ],
+                    "value": "noon",
+                    "type": "timeofday"
+                }
+            ],
+            "slurp_id": 7803
+        },
+        {
+            "text": "what is the most popular curry place in town",
+            "intent": "recommendation_locations",
+            "entities": [
+                {
+                    "span": [
+                        4,
+                        5
+                    ],
+                    "value": "curry place",
+                    "type": "business_type"
+                },
+                {
+                    "span": [
+                        7
+                    ],
+                    "value": "town",
+                    "type": "place_name"
+                }
+            ],
+            "slurp_id": 11707
+        },
+        {
+            "text": "list college sports for tomorrow in tulsa",
+            "intent": "recommendation_events",
+            "entities": [
+                {
+                    "span": [
+                        1,
+                        2
+                    ],
+                    "value": "college sports",
+                    "type": "event_name"
+                },
+                {
+                    "span": [
+                        4
+                    ],
+                    "value": "tomorrow",
+                    "type": "date"
+                },
+                {
+                    "span": [
+                        6
+                    ],
+                    "value": "tulsa",
+                    "type": "place_name"
+                }
+            ],
+            "slurp_id": 11614
+        },
+        {
+            "text": "ask my adviser",
+            "intent": "qa_stock",
+            "entities": [],
+            "slurp_id": 14195
+        },
+        {
+            "text": "i need to organize a meeting with sarah tomorrow",
+            "intent": "calendar_set",
+            "entities": [
+                {
+                    "span": [
+                        5
+                    ],
+                    "value": "meeting",
+                    "type": "event_name"
+                },
+                {
+                    "span": [
+                        7
+                    ],
+                    "value": "sarah",
+                    "type": "person"
+                },
+                {
+                    "span": [
+                        8
+                    ],
+                    "value": "tomorrow",
+                    "type": "date"
+                }
+            ],
+            "slurp_id": 8604
+        },
+        {
+            "text": "period the light should be in dim",
+            "intent": "iot_hue_lightdim",
+            "entities": [],
+            "slurp_id": 1613
+        },
+        {
+            "text": "what is a transistor",
+            "intent": "qa_definition",
+            "entities": [
+                {
+                    "span": [
+                        3
+                    ],
+                    "value": "transistor",
+                    "type": "definition_word"
+                }
+            ],
+            "slurp_id": 17907
+        },
+        {
+            "text": "it is exact",
+            "intent": "general_affirm",
+            "entities": [],
+            "slurp_id": 22749
+        },
+        {
+            "text": "what is the mass of a microwave",
+            "intent": "qa_factoid",
+            "entities": [],
+            "slurp_id": 13406
+        },
+        {
+            "text": "please play any joy division album",
+            "intent": "play_music",
+            "entities": [
+                {
+                    "span": [
+                        3,
+                        4
+                    ],
+                    "value": "joy division",
+                    "type": "artist_name"
+                }
+            ],
+            "slurp_id": 2970
+        },
+        {
+            "text": "where are the best co working spots in the neighborhood",
+            "intent": "general_quirky",
+            "entities": [],
+            "slurp_id": 17445
+        },
+        {
+            "text": "whats today",
+            "intent": "datetime_query",
+            "entities": [
+                {
+                    "span": [
+                        1
+                    ],
+                    "value": "today",
+                    "type": "date"
+                }
+            ],
+            "slurp_id": 5859
+        },
+        {
+            "text": "can you tell me what alarms i have set",
+            "intent": "alarm_query",
+            "entities": [],
+            "slurp_id": 648
+        },
+        {
+            "text": "check celebrity wiki",
+            "intent": "general_quirky",
+            "entities": [],
+            "slurp_id": 13702
+        },
+        {
+            "text": "turn off the fan",
+            "intent": "iot_wemo_off",
+            "entities": [
+                {
+                    "span": [
+                        3
+                    ],
+                    "value": "fan",
+                    "type": "device_type"
+                }
+            ],
+            "slurp_id": 5628
+        },
+        {
+            "text": "i went to the park",
+            "intent": "general_quirky",
+            "entities": [],
+            "slurp_id": 6203
+        },
+        {
+            "text": "please turn off the lamp",
+            "intent": "iot_hue_lightoff",
+            "entities": [
+                {
+                    "span": [
+                        4
+                    ],
+                    "value": "lamp",
+                    "type": "device_type"
+                }
+            ],
+            "slurp_id": 4276
+        },
+        {
+            "text": "light green",
+            "intent": "iot_hue_lightchange",
+            "entities": [
+                {
+                    "span": [
+                        1
+                    ],
+                    "value": "green",
+                    "type": "color_type"
+                }
+            ],
+            "slurp_id": 4036
+        },
+        {
+            "text": "switch off kitchen lights",
+            "intent": "iot_hue_lightoff",
+            "entities": [
+                {
+                    "span": [
+                        2
+                    ],
+                    "value": "kitchen",
+                    "type": "house_place"
+                }
+            ],
+            "slurp_id": 5646
+        },
+        {
+            "text": "make 5 coffee tell the coffee machine",
+            "intent": "iot_coffee",
+            "entities": [
+                {
+                    "span": [
+                        5,
+                        6
+                    ],
+                    "value": "coffee machine",
+                    "type": "device_type"
+                }
+            ],
+            "slurp_id": 3569
+        },
+        {
+            "text": "can you book train ticket from mumbai to sangli for tomorrow morning",
+            "intent": "transport_ticket",
+            "entities": [
+                {
+                    "span": [
+                        3
+                    ],
+                    "value": "train",
+                    "type": "transport_type"
+                },
+                {
+                    "span": [
+                        6
+                    ],
+                    "value": "mumbai",
+                    "type": "place_name"
+                },
+                {
+                    "span": [
+                        8
+                    ],
+                    "value": "sangli",
+                    "type": "place_name"
+                },
+                {
+                    "span": [
+                        10
+                    ],
+                    "value": "tomorrow",
+                    "type": "date"
+                },
+                {
+                    "span": [
+                        11
+                    ],
+                    "value": "morning",
+                    "type": "timeofday"
+                }
+            ],
+            "slurp_id": 12847
+        },
+        {
+            "text": "hey what sapp",
+            "intent": "general_quirky",
+            "entities": [],
+            "slurp_id": 6349
+        },
+        {
+            "text": "the answer was good",
+            "intent": "general_affirm",
+            "entities": [],
+            "slurp_id": 22925
+        },
+        {
+            "text": "my coffee is cold please make more coffee",
+            "intent": "iot_coffee",
+            "entities": [],
+            "slurp_id": 4272
+        },
+        {
+            "text": "what is the day on 23rd march",
+            "intent": "datetime_query",
+            "entities": [
+                {
+                    "span": [
+                        5,
+                        6,
+                        7
+                    ],
+                    "value": "23rd march",
+                    "type": "date"
+                }
+            ],
+            "slurp_id": 5747
+        },
+        {
+            "text": "how do i make cookies",
+            "intent": "cooking_recipe",
+            "entities": [
+                {
+                    "span": [
+                        4
+                    ],
+                    "value": "cookies",
+                    "type": "food_type"
+                }
+            ],
+            "slurp_id": 10041
+        },
+        {
+            "text": "are there any local events being put on tonight",
+            "intent": "recommendation_events",
+            "entities": [
+                {
+                    "span": [
+                        8
+                    ],
+                    "value": "tonight",
+                    "type": "timeofday"
+                }
+            ],
+            "slurp_id": 12103
+        },
+        {
+            "text": "do not get this",
+            "intent": "general_explain",
+            "entities": [],
+            "slurp_id": 24432
+        },
+        {
+            "text": "any high priority emails",
+            "intent": "email_query",
+            "entities": [],
+            "slurp_id": 17133
+        },
+        {
+            "text": "will you look up joe is contact information for me",
+            "intent": "email_querycontact",
+            "entities": [
+                {
+                    "span": [
+                        4
+                    ],
+                    "value": "joe is",
+                    "type": "person"
+                }
+            ],
+            "slurp_id": 16553
+        },
+        {
+            "text": "what i do not like",
+            "intent": "general_quirky",
+            "entities": [],
+            "slurp_id": 6486
+        },
+        {
+            "text": "define the word absolute",
+            "intent": "qa_definition",
+            "entities": [
+                {
+                    "span": [
+                        3
+                    ],
+                    "value": "absolute",
+                    "type": "definition_word"
+                }
+            ],
+            "slurp_id": 13365
+        },
+        {
+            "text": "you have done the command correcly",
+            "intent": "general_affirm",
+            "entities": [],
+            "slurp_id": 22978
+        },
+        {
+            "text": "does not matter to me olly",
+            "intent": "general_dontcare",
+            "entities": [],
+            "slurp_id": 21914
+        },
+        {
+            "text": "could you again elaborate me on your answers please",
+            "intent": "general_explain",
+            "entities": [],
+            "slurp_id": 24456
+        },
+        {
+            "text": "how do i cook a medium rare steak",
+            "intent": "cooking_recipe",
+            "entities": [
+                {
+                    "span": [
+                        5,
+                        6,
+                        7
+                    ],
+                    "value": "medium rare steak",
+                    "type": "food_type"
+                }
+            ],
+            "slurp_id": 10046
+        },
+        {
+            "text": "email dad about fixing my car",
+            "intent": "email_sendemail",
+            "entities": [
+                {
+                    "span": [
+                        1
+                    ],
+                    "value": "dad",
+                    "type": "relation"
+                }
+            ],
+            "slurp_id": 16567
+        },
+        {
+            "text": "when was this song 1st recorded",
+            "intent": "music_query",
+            "entities": [],
+            "slurp_id": 3709
+        },
+        {
+            "text": "can i get the directions to the nearest bar",
+            "intent": "transport_query",
+            "entities": [
+                {
+                    "span": [
+                        8
+                    ],
+                    "value": "bar",
+                    "type": "business_type"
+                }
+            ],
+            "slurp_id": 12739
+        },
+        {
+            "text": "does selena gomez has a scandal",
+            "intent": "qa_factoid",
+            "entities": [
+                {
+                    "span": [
+                        1,
+                        2
+                    ],
+                    "value": "selena gomez",
+                    "type": "person"
+                }
+            ],
+            "slurp_id": 14548
+        },
+        {
+            "text": "did paok won liverpool",
+            "intent": "news_query",
+            "entities": [
+                {
+                    "span": [
+                        3
+                    ],
+                    "value": "liverpool",
+                    "type": "place_name"
+                }
+            ],
+            "slurp_id": 3055
+        },
+        {
+            "text": "when will my food be ready",
+            "intent": "takeaway_query",
+            "entities": [],
+            "slurp_id": 1540
+        },
+        {
+            "text": "pull up my party playlist",
+            "intent": "play_music",
+            "entities": [
+                {
+                    "span": [
+                        3,
+                        4
+                    ],
+                    "value": "party playlist",
+                    "type": "playlist_name"
+                }
+            ],
+            "slurp_id": 4936
+        },
+        {
+            "text": "i want to send email to jack at gmail dot com",
+            "intent": "email_sendemail",
+            "entities": [
+                {
+                    "span": [
+                        6,
+                        7,
+                        8,
+                        9,
+                        10
+                    ],
+                    "value": "jack at gmail dot com",
+                    "type": "email_address"
+                }
+            ],
+            "slurp_id": 19999
+        },
+        {
+            "text": "send email to rohan to meet me today at evening",
+            "intent": "email_sendemail",
+            "entities": [
+                {
+                    "span": [
+                        3
+                    ],
+                    "value": "rohan",
+                    "type": "person"
+                },
+                {
+                    "span": [
+                        7
+                    ],
+                    "value": "today",
+                    "type": "date"
+                },
+                {
+                    "span": [
+                        9
+                    ],
+                    "value": "evening",
+                    "type": "timeofday"
+                }
+            ],
+            "slurp_id": 16188
+        },
+        {
+            "text": "you rock thanks",
+            "intent": "general_praise",
+            "entities": [],
+            "slurp_id": 25476
+        },
+        {
+            "text": "please can you say the last again",
+            "intent": "general_repeat",
+            "entities": [],
+            "slurp_id": 22538
+        },
+        {
+            "text": "how heavy is the traffic on the i 15 in las vegas this hour",
+            "intent": "transport_traffic",
+            "entities": [
+                {
+                    "span": [
+                        7,
+                        8
+                    ],
+                    "value": "i 15",
+                    "type": "place_name"
+                },
+                {
+                    "span": [
+                        10,
+                        11
+                    ],
+                    "value": "las vegas",
+                    "type": "place_name"
+                },
+                {
+                    "span": [
+                        12,
+                        13
+                    ],
+                    "value": "this hour",
+                    "type": "time"
+                }
+            ],
+            "slurp_id": 12688
+        },
+        {
+            "text": "create a birthday wish reminder for tomorrow at 10 am",
+            "intent": "calendar_set",
+            "entities": [
+                {
+                    "span": [
+                        2,
+                        3
+                    ],
+                    "value": "birthday wish",
+                    "type": "event_name"
+                },
+                {
+                    "span": [
+                        6
+                    ],
+                    "value": "tomorrow",
+                    "type": "date"
+                },
+                {
+                    "span": [
+                        8,
+                        9
+                    ],
+                    "value": "10 am",
+                    "type": "time"
+                }
+            ],
+            "slurp_id": 7191
+        },
+        {
+            "text": "where is the bolshoi theater located",
+            "intent": "qa_factoid",
+            "entities": [
+                {
+                    "span": [
+                        3,
+                        4
+                    ],
+                    "value": "bolshoi theater",
+                    "type": "place_name"
+                }
+            ],
+            "slurp_id": 17453
+        },
+        {
+            "text": "what is the distance from some particular place",
+            "intent": "qa_factoid",
+            "entities": [],
+            "slurp_id": 17956
+        }
+    ]
+}
